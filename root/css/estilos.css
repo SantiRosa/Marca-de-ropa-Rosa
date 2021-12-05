@@ -113,12 +113,24 @@ footer{
 }
 .clinsta{
     margin-right: 5px;
+    transition: .5s ease 0.05s;
+}
+.clinsta:hover{
+    -webkit-transform: rotate(360deg) scale(1.3);
 }
 .clface{
     margin-right: 5px;
+    transition: .5s ease 0.05s;
+}
+.clface:hover{
+    -webkit-transform: rotate(360deg) scale(1.3);
 }
 .clml{
     margin-right: 5px;
+    transition: .5s ease 0.05s;
+}
+.clml:hover{
+    -webkit-transform: rotate(360deg) scale(1.3);
 }
 section div p{
     display: inline-block;
