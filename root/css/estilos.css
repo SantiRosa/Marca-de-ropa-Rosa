@@ -46,7 +46,7 @@ li a:hover{
     transition: 0.5s;
 }
 h1{
-    display: inline-block;
+   display: inline-block;
 }
 .mainuno{
     grid-area: mainuno;
@@ -109,7 +109,6 @@ footer{
     margin-top: 25px;
     display: inline-flex;
     justify-content: space-between;
-    
 }
 .clinsta{
     margin-right: 5px;
@@ -142,16 +141,32 @@ section div p{
     font-size: 20px; 
     font-weight: 400 bold; 
     text-align: center; 
-    background: #d0d5e2; 
+    background: #e2d3d0; 
     margin: 10px 310px 10px 289px; 
     -moz-border-radius: 10px 10px 10px 10px; 
     -webkit-border-radius: 35px 35px 35px 35px; 
     border: 2px dashed #5878ca;
+    animation-name: footertitila;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes footertitila{
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
 }
 .whasap{
      position: fixed;
      bottom: 10px;
      right: 10px;
+     animation-name: whasaptitila;
+     animation-duration: 1s;
+     animation-timing-function: linear;
+     animation-iteration-count: infinite;
+}
+@keyframes whasaptitila{
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
 }
 .lorem{
      text-align: center;
@@ -471,6 +486,9 @@ fieldset div label{
 .descripcion div{
     text-align: center;
     align-self: center;
+}
+.titulo{
+    text-decoration: none;
 }
 
 @media screen and (max-width:768px){
