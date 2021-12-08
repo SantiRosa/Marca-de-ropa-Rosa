@@ -453,7 +453,7 @@ section div p{
 .consultas{
     padding-top: 20px;
 }
-form{
+/*form{
     text-align: center;
 }
 form div{
@@ -466,7 +466,7 @@ fieldset{
     border: none;
 }
 fieldset div label{
-    display: block;
+    display: block;*/
 }
 /*QUIENES SOMOS*/
 .maincinco{
@@ -478,7 +478,7 @@ fieldset div label{
 .quienesSomos{
     grid-area: quienesSomos;
 }
-/*.descripcion{
+.descripcion{
     padding: 15px;
     display: flex;
     flex-direction: row;
@@ -487,7 +487,7 @@ fieldset div label{
 .descripcion div{
     text-align: center;
     align-self: center;
-}*/
+}
 .titulo{
     text-decoration: none;
 }
