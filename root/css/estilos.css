@@ -14,7 +14,7 @@ html{
     grid-template-areas: 
     "header header header header"
     "mainuno mainuno mainuno mainuno"
-    "footer footer footer footer";
+    /*"footer footer footer footer";*/
 }
 header{
     --bs-bg-opacity: 1;
@@ -95,19 +95,18 @@ span{
     display: inline;
 }
 footer{
-    grid-area: footer;
-    margin-top: 15px;
-    padding: 15px 5px 5px 5px;
+    /*grid-area: footer;*/
+    margin-top: 75px;
+    /*padding: 15px 5px 5px 5px;*/
     border: dashed rgb(218, 208, 208);
 }
 .abc{
     text-align: center;
-    display: flex;
+    /*display: flex;*/
     justify-content: center;
     flex-direction: row;
 }
 .redes{
-    margin-top: 25px;
     display: inline-flex;
     justify-content: space-between;
 }
@@ -139,18 +138,17 @@ section div p{
 .abcd{
     font-family: Century sans-serif; 
     color: #4d2c2c; 
-    font-size: 20px; 
+    font-size: 20px;
+    line-height: 20px; 
     font-weight: 400 bold; 
-    text-align: center; 
-    background: #e2d3d0; 
-    margin: 10px 310px 10px 289px; 
-    -moz-border-radius: 10px 10px 10px 10px; 
-    -webkit-border-radius: 35px 35px 35px 35px; 
-    border: 2px dashed #5878ca;
+    margin: 10px 310px 0px 289px; 
     animation-name: footertitila;
     animation-duration: 1s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
+    text-align: center;
+    justify-items: center;
+    margin-top: 0px;
 }
 @keyframes footertitila{
      50% { opacity: 0.0; }
@@ -164,6 +162,7 @@ section div p{
      animation-duration: 1s;
      animation-timing-function: linear;
      animation-iteration-count: infinite;
+     text-align: center;
 }
 @keyframes whasaptitila{
     50% { opacity: 0.0; }
@@ -453,20 +452,11 @@ section div p{
 .consultas{
     padding-top: 20px;
 }
-/*form{
-    text-align: center;
-}
 form div{
     font-family: cursive;
 }
-.legales{
-    color: red;  
-}
 fieldset{
     border: none;
-}
-fieldset div label{
-    display: block;*/
 }
 /*QUIENES SOMOS*/
 .maincinco{

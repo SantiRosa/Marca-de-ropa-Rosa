@@ -47,8 +47,12 @@
           </nav>
     </header>
     <main class="maincuatro">
-        <section>
-            <h2 class="consultas">Consultas</h2>
+        <section class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="consultas">Consultas</h2>
+                </div>
+            </div>
         </section>
         <form class="row g-3">
             <div class="col-md-4">
@@ -97,80 +101,59 @@
             <div class="col-2">
                 <button class="btn btn-primary" type="reset">Borrar consulta</button>
               </div>
-
-          </form>
-        <!--<form>
-            <fieldset>
-            <div>
-                <b><label for="nombre">Nombre:</label></b>
-                <input type="text" name="nombre" id="nombre">
-            </div>
-            <div>                
-                <b><label for="apellido">Apellido:</label></b>
-                <input type="text" name="apellido" id="apellido">
-            </div>   
-            <div>
-                <b><label for="mail">Correo electrónico:</label></b>
-                <input type="email" name="mail" id="mail">
-            </div>
-            <div>
-                <b><label for="consultas">Envianos tu consulta:</label></b>
-                <textarea name="consultas" id="consultas" cols="30" rows="10"></textarea>
-            </div>
-            <div class="legales">
-                <b><label for="condiciones">Acepta condiciones legales</label></b>
-                <input type="checkbox" name="condiciones" id="condiciones">
-            </div>
-            <div>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Borrar consulta">
-            </div>
-            </fieldset>
-        </form>-->
+        </form>
         <section>
             <div class="whasap">
-                <a href="https://www.whatsapp.com" target="_blank">
+                    <a href="https://www.whatsapp.com" target="_blank">
+                    <div class="toast-body">Consultame!</div>
                     <img src="../Imagenes/whatsapp.png" width="40px" height="40px">
-                </a>
+                    </a>
             </div>
         </section>
     </main>
     <footer>
         <section class="abc">
-            <div>
-                <p>Teléfono: 15-698-756</p>
-                <p>Email: timoteo@gmail.com</p>
-                <p>¡Seguinos en nuestras redes!
-                    <div class="redes">
-                        <div class="clinsta">
-                            <a href="https://www.instagram.com" target="_blank">
-                                <img style="vertical-align: middle" class="instagram" style="display: inline;" src="../Imagenes/footer-instagram.jpg" alt="Instagram" width="30" height="30" hspace="1">
-                            </a>
+                <Section class="container">
+                    <div class="row">
+                        <div class="col-4">
+                            <p>Teléfono: 15-698-756</p>
                         </div>
-                        <div class="clface">
-                            <a href="https://www.facebook.com" target="_blank">  
-                                <img style="vertical-align: middle" class="facebook" style="display: inline;" src="../Imagenes/footer-facebook.png" alt="Facebook" width="30" height="30" hspace="1">
-                            </a>
+                        <div class="col-4">
+                            <p>Email: timoteo@gmail.com</p>
                         </div>
-                        <div class="clml">
-                                <a href="https://www.mercadolibre.com.ar" target="_blank">
-                                <img style="vertical-align: middle" class="ML" style="display: inline;" src="../Imagenes/mercadolibredos.png" alt="ML" width="30" height="30" hspace="1">
-                            </a>  
+                        <div class="col-4">
+                            <p>¡Seguinos en nuestras redes!</p>
+                           <div class="redes">
+                                <div class="clinsta">
+                                    <a href="https://www.instagram.com" target="_blank">
+                                        <img style="vertical-align: middle" class="instagram" style="display: inline;" src="../Imagenes/footer-instagram.jpg" alt="Instagram" width="30" height="30" hspace="1">
+                                    </a>
+                                </div>
+                                <div class="clface">
+                                    <a href="https://www.facebook.com" target="_blank">  
+                                        <img style="vertical-align: middle" class="facebook" style="display: inline;" src="../Imagenes/footer-facebook.png" alt="Facebook" width="30" height="30" hspace="1">
+                                </a>
+                                </div>
+                                <div class="clml">
+                                        <a href="https://www.mercadolibre.com.ar" target="_blank">
+                                        <img style="vertical-align: middle" class="ML" style="display: inline;" src="../Imagenes/mercadolibredos.png" alt="ML" width="30" height="30" hspace="1">
+                                    </a>  
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </p>
-            </div>
+                </section>  
         </section>
         <section class="abcd">
-            <div>
-                <p>¡Consulta por descuentos mayoristas, minoristas y medios de pago!</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p>¡Consulta por descuentos mayoristas, minoristas y medios de pago!</p>
+                    </div>
+                </div>
             </div>
         </section>
-        <div>
-            <a class="subir" href="#Inicio">
-                <img src="../imagenes/flecha-subir.png" alt="subir" width="50" height="35"></a>
-            </a>
-        </div>
+        
     </footer>
     <script src="../bootstrap-5.1.3-dist/js/bootstrap.js"></script>
 </body>
