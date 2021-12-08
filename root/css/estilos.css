@@ -17,7 +17,8 @@ html{
     "footer footer footer footer";
 }
 header{
-    background-image: url(../imagenes/imagenfondo.jpg);
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
     grid-area: header;
     display: flex;
     align-items: center;
@@ -477,7 +478,7 @@ fieldset div label{
 .quienesSomos{
     grid-area: quienesSomos;
 }
-.descripcion{
+/*.descripcion{
     padding: 15px;
     display: flex;
     flex-direction: row;
@@ -486,7 +487,7 @@ fieldset div label{
 .descripcion div{
     text-align: center;
     align-self: center;
-}
+}*/
 .titulo{
     text-decoration: none;
 }
