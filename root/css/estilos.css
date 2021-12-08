@@ -10,16 +10,10 @@ html{
     margin: 5px;
 }
 /*-------INICIO-------*/
-.bodyuno{
-    grid-template-areas: 
-    "header header header header"
-    "mainuno mainuno mainuno mainuno"
-    /*"footer footer footer footer";*/
-}
 header{
     --bs-bg-opacity: 1;
     background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity));
-    grid-area: header;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -50,7 +44,6 @@ h1{
    display: inline-block;
 }
 .mainuno{
-    grid-area: mainuno;
     justify-self: stretch;
 }
 h2 {
@@ -169,9 +162,6 @@ section div p{
      text-align: center;
      color: rgb(19, 16, 16);
      margin-top: 20px;
-     /*background-size: cover;
-     background-position: center;*/
-     /*padding: 5px;*/
      margin: 15px 0px 5px 0px;
      font-weight: bold;
 }
@@ -517,6 +507,13 @@ fieldset{
     }
     .redes{
         display: inline;
+        align-items: center;
+    }
+    .fotos{
+        align-items: center;
+    }
+    footer{
+        border: none;
     }
     .instagram{
         width: 100px;
@@ -652,7 +649,6 @@ fieldset{
     }
     .maintres h2{
         margin-top: 20px;
-    
         justify-self: stretch;
     }
     .mapaa b{
