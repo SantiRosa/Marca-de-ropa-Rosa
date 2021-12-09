@@ -451,11 +451,6 @@ fieldset{
 .maincinco{
     padding-top: 20px;
     display: grid;
-    grid-template-areas:
-    "quienesSomos quienesSomos";
-}
-.quienesSomos{
-    grid-area: quienesSomos;
 }
 .descripcion{
     padding: 15px;
@@ -640,14 +635,12 @@ fieldset{
        flex-direction: column;
        justify-content: center;
     }
-    .quienessomosnosotros h2{
-        text-align: center;
-    }
-    .quienessomosnosotros p{
-        text-align: center;
-    }
-    .maincinco .container .col-6 .quienessomosnosotrosimg{
+    .quienessomosnosotrosimg{
         display: none;
+    }
+    .quienessomosnosotros .text-center{
+        display: block;
+        text-align: center;
     }
     /*----ENCONTRANOS----*/
     .maintres{
