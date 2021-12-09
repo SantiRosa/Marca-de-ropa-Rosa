@@ -58,6 +58,9 @@ h2 {
 .parrafos p{
     margin-left: -5px;
 }
+.text-center{
+    font-weight: bold;
+}
 .fotos{
     display: flex;
     justify-content: center;
@@ -504,6 +507,7 @@ fieldset{
     }
     .abcd{
         display: none;
+        align-items: center;
     }
     .redes{
         display: inline;
@@ -636,10 +640,13 @@ fieldset{
        flex-direction: column;
        justify-content: center;
     }
-    .descripcion div{
+    .quienessomosnosotros h2{
         text-align: center;
     }
-    .descripcion img{
+    .quienessomosnosotros p{
+        text-align: center;
+    }
+    .maincinco .container .col-6 .quienessomosnosotrosimg{
         display: none;
     }
     /*----ENCONTRANOS----*/
