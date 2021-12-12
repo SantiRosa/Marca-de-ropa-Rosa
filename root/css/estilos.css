@@ -634,14 +634,7 @@ fieldset{
        flex-direction: column;
        justify-content: center;
     }
-    .quienessomosnosotrosimg{
-        display: none;
-    }
-    .quienessomosnosotros .text-center{
-        display: block;
-        text-align: center;
-    }
-    /*----ENCONTRANOS----*/
+        /*----ENCONTRANOS----*/
     .maintres{
         display: flex;
         flex-direction: column;
