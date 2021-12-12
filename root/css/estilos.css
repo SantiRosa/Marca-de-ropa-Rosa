@@ -18,7 +18,7 @@ header{
     justify-content: space-between;
     position: sticky;
     top: 0px;
-    z-index: 1;
+    z-index: 3;
 }
 .imagenLogo{
     display: inline-block;
@@ -84,6 +84,7 @@ h2 {
     height: 150px;
     margin-right: 10px;
 }
+
 span{
     display: inline;
 }
@@ -367,9 +368,8 @@ section div p{
 .maintres{
     display: grid;
     grid-template-areas: 
-    "encontranos  encontranos"
-    "ubicacion  ubicacionb"
-    "ubicacionc  ubicacionc";
+    "encontranos  encontranos encontranos"
+    "ubicacion ubicacionc ubicacionb";
     grid-gap: 3px;
 }
 .maintres h2{
