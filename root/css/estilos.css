@@ -84,13 +84,11 @@ h2 {
     height: 150px;
     margin-right: 10px;
 }
-
 span{
     display: inline;
 }
 footer{
     margin-top: 75px;
-    border: dashed rgb(37, 20, 20);
 }
 footer .container{
     text-align: center;
@@ -98,7 +96,7 @@ footer .container{
     flex-direction: row;
 }
 .redes{
-    display: inline-flex    ;
+    display: inline-flex;
     justify-content: space-between;
 }
 .clinsta{
@@ -158,6 +156,11 @@ section div p{
 @keyframes whasaptitila{
     50% { opacity: 0.0; }
     100% { opacity: 1.0; }
+}
+.whasap .toast-body{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
 }
 .lorem{
      text-align: center;
@@ -444,6 +447,14 @@ form div{
 fieldset{
     border: none;
 }
+.maincuatro .form-label{
+    display: flex;
+    justify-content: center;
+}
+.maincuatro .form-check{
+    display: flex;
+    justify-content: center; 
+}
 /*QUIENES SOMOS*/
 .maincinco{
     padding-top: 20px;
@@ -452,15 +463,9 @@ fieldset{
 .maincinco{
    justify-content: center;
 }
-.descripcion{
-    padding: 15px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.descripcion div{
+.maincinco .card-body p{
     text-align: center;
-    align-self: center;
+    font-style: italic;
 }
 .titulo{
     text-decoration: none;
