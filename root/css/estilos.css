@@ -44,15 +44,15 @@ h1{
 }
 .mainuno{
     justify-self: stretch;
+    background-image: radial-gradient(circle at 49.96% 49.91%, #02ffff 0, #34f5ff 16.67%, #47d3f3 33.33%, #50afcc 50%, #518ca4 66.67%, #4d6f80 83.33%, #455661 100%);
+    padding: 40px;
 }
 h2 {
-    margin-block-end: 10px;
     text-align: center;
     font-weight: bold;
     font-size: 30px;
     font-family: cursive;
-    margin-top: 15px;
-    color: blueviolet;
+    color: rgb(71, 15, 122);
 }
 .parrafos{
     font-weight: bold;
@@ -64,7 +64,6 @@ h2 {
 }
 .principal{
     text-align: center;
-    padding: 10px 10px 10px 10px;
 }
 .principala{
     margin-top: 10px;
@@ -88,7 +87,7 @@ span{
     display: inline;
 }
 footer{
-    margin-top: 75px;
+    margin-top: 10px;
 }
 footer .container{
     text-align: center;
@@ -182,9 +181,10 @@ section div p{
     "buzouno buzodos buzotres buzocuatro"
     "pantalones pantalones pantalones pantalones"
     "pantalonuno pantalondos pantalontres pantaloncuatro";
+    background-image: radial-gradient(circle at 49.96% 49.91%, #02ffff 0, #34f5ff 16.67%, #47d3f3 33.33%, #50afcc 50%, #518ca4 66.67%, #4d6f80 83.33%, #455661 100%);
+    padding: 40px;
 }
 .coleccion{
-    margin-top: 20px;
     grid-area: coleccion;
     justify-self: stretch;
 }
@@ -192,7 +192,8 @@ section div p{
     grid-area: remeras;
     padding: 15px;
     font-size: 20px;
-    color: blueviolet;
+    color: rgb(71, 15, 122);
+    font-weight: bold;
 }
 .remerauno{
     grid-area: remerauno;
@@ -251,7 +252,7 @@ section div p{
     margin-top: 15px;
     font-size: 20px;
     padding: 15px;
-    color: blueviolet;
+    color: rgb(71, 15, 122);
 }
 .buzouno{
     grid-area: buzouno;
@@ -310,7 +311,7 @@ section div p{
     margin-top: 15px;
     font-size: 20px;
     padding: 15px;
-    color: blueviolet;
+    color: rgb(71, 15, 122);
 }
 .pantalonquery{
     display: none;
@@ -374,9 +375,10 @@ section div p{
     "encontranos  encontranos encontranos"
     "ubicacion ubicacionc ubicacionb";
     grid-gap: 3px;
+    background-image: radial-gradient(circle at 49.96% 49.91%, #02ffff 0, #34f5ff 16.67%, #47d3f3 33.33%, #50afcc 50%, #518ca4 66.67%, #4d6f80 83.33%, #455661 100%);
+    padding: 40px;
 }
 .maintres h2{
-    margin-top: 20px;
     grid-area: encontranos;
     justify-self: stretch;
 }
@@ -438,14 +440,15 @@ section div p{
     margin: 10px 10px 10px 10px;
 }
 /*-------CONSULTAS-------*/
-.consultas{
-    padding-top: 20px;
-}
 form div{
     font-family: cursive;
 }
 fieldset{
     border: none;
+}
+.maincuatro{
+    background-image: radial-gradient(circle at 49.96% 49.91%, #02ffff 0, #34f5ff 16.67%, #47d3f3 33.33%, #50afcc 50%, #518ca4 66.67%, #4d6f80 83.33%, #455661 100%);
+    padding: 40px;
 }
 .maincuatro .form-label{
     display: flex;
@@ -457,11 +460,10 @@ fieldset{
 }
 /*QUIENES SOMOS*/
 .maincinco{
-    padding-top: 20px;
+    padding: 40px;
     display: grid;
-}
-.maincinco{
-   justify-content: center;
+    background-image: radial-gradient(circle at 49.96% 49.91%, #02ffff 0, #34f5ff 16.67%, #47d3f3 33.33%, #50afcc 50%, #518ca4 66.67%, #4d6f80 83.33%, #455661 100%);
+    justify-content: center;
 }
 .maincinco .card-body p{
     text-align: center;
