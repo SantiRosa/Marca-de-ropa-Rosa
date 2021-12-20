@@ -6,8 +6,6 @@
 html{
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
-    padding: 10px 10px 10px 10px;
-    margin: 5px;
 }
 /*-------INICIO-------*/
 header{
@@ -458,6 +456,10 @@ fieldset{
     display: flex;
     justify-content: center; 
 }
+.botonuno{
+    display: flex;
+    text-align: center;
+}
 /*QUIENES SOMOS*/
 .maincinco{
     padding: 40px;
@@ -546,13 +548,7 @@ fieldset{
         justify-self: stretch;
         text-align: center;
     }
-    .remerauno p{
-        display: none;
-    }
     .remerados{
-        display: none;
-    }
-    .remerados p{
         display: none;
     }
     .remerados img{
@@ -561,28 +557,16 @@ fieldset{
     .remeratres{
         display: none;;
     }
-    .remeratres p{
-        display: none;
-    }
     .remeratres img{
         display: none;
     }
     .remeracuatro{
         display: none;
     }
-    .remeracuatro p{
-        display: none;
-    }
     .remeracuatro img{
         display: none;
     }
-    .buzouno p{
-        display: none;
-    }
     .buzodos{
-        display: none;
-    }
-    .buzodos p{
         display: none;
     }
     .buzodos img{
@@ -591,28 +575,16 @@ fieldset{
     .buzotres{
         display: none;
     }
-    .buzotres p{
-        display: none;;
-    }
     .buzotres img{
         display: none;
     }
     .buzocuatro{
         display: none;
     }
-    .buzocuatro p{
-        display: none;
-    }
     .buzocuatro img{
         display: none;
     }
-    .pantalonuno p{
-        display: none;
-    }
     .pantalondos{
-        display: none;
-    }
-    .pantalondos p{
         display: none;
     }
     .pantalondos img{
@@ -621,19 +593,13 @@ fieldset{
     .pantalontres{
         display: none;
     }
-    .pantalontres p{
-        display: none;
-    }
-    .pantalontres img{
+        .pantalontres img{
         display: none;
     }
     .pantaloncuatro{
         display: none;
     }
-    .pantaloncuatro p{
-        display: none;
-    }
-    .pantaloncuatro img{
+        .pantaloncuatro img{
         display: none;
     }
     /*----QUIENES SOMOS----*/
@@ -673,6 +639,9 @@ fieldset{
         justify-self: center;
         align-self: center;
         margin-bottom: 15px;
+    }
+    .botonuno{
+        flex-direction: column;
     }
    
     
